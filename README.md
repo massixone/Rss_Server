@@ -21,9 +21,10 @@ This is a very basic collection of codesneeded to setup a server which is capabe
 2. Install Python Mysql Client
 ```
     sudo pip install mysqlclient
-    or
+```
+  or
+```  
     sudo pip install pymysql
-
 ```
 
 3. Install the RSS Server Python software
@@ -34,7 +35,7 @@ This is a very basic collection of codesneeded to setup a server which is capabe
 In order to initialize the database, you can execute the file ```./sql/rss_dbsetup.sql``` by running mysql as follows:
 
 ```
-    mysql -u root -p<root_password> < ./sql/rss_dbsetup.sql
+    $ mysql -u root -p<root_password> < ./mysql/rss_dbsetup.sql
 ```    
 
 
